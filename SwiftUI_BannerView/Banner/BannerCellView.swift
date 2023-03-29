@@ -15,14 +15,14 @@ struct BannerCellView: View {
         ZStack {
             Color.gray
              
-            CacheAsyncImage(url: URL(string: "\(IPManager.BANNER_URL_IMAGE)\(bannerImageData.background!)")!) { asyncImagePhase in
+            CacheAsyncImage(url: URL(string: "\(bannerImageData.background!)")!) { asyncImagePhase in
                 if let image = asyncImagePhase.image {
                     image
                         .resizable()
                 }
             }
             
-            CacheAsyncImage(url: URL(string: "\(IPManager.BANNER_URL_IMAGE)\(bannerImageData.banner!)")!) { asyncImagePhase in
+            CacheAsyncImage(url: URL(string: "\(bannerImageData.banner!)")!) { asyncImagePhase in
                 if let image = asyncImagePhase.image {
                     image
                         .resizable()
