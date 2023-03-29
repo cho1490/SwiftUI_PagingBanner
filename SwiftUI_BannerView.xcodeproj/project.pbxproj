@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,14 +11,33 @@
 		DE6A49D829D3CD2300CFE20D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49D729D3CD2300CFE20D /* ContentView.swift */; };
 		DE6A49DA29D3CD2400CFE20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6A49D929D3CD2400CFE20D /* Assets.xcassets */; };
 		DE6A49DD29D3CD2400CFE20D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6A49DC29D3CD2400CFE20D /* Preview Assets.xcassets */; };
+		DE6A49E529D3CD3200CFE20D /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49E429D3CD3200CFE20D /* BannerView.swift */; };
+		DE6A49E729D3CF0600CFE20D /* BannerImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49E629D3CF0600CFE20D /* BannerImageData.swift */; };
+		DE6A49E929D3CF7600CFE20D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49E829D3CF7600CFE20D /* ContentViewModel.swift */; };
+		DE6A49EB29D3CFDB00CFE20D /* BannerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49EA29D3CFDB00CFE20D /* BannerCellView.swift */; };
+		DE6A49ED29D41C5F00CFE20D /* ImageLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49EC29D41C5F00CFE20D /* ImageLib.swift */; };
+		DE6A49F029D41C9500CFE20D /* IPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49EF29D41C9500CFE20D /* IPManager.swift */; };
+		DE6A49F529D42ADE00CFE20D /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A49F429D42ADE00CFE20D /* CacheAsyncImage.swift */; };
+		F016C24CB7252C14796AB84A /* Pods_SwiftUI_BannerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6431B3D0060AB7E6267F720D /* Pods_SwiftUI_BannerView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6431B3D0060AB7E6267F720D /* Pods_SwiftUI_BannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_BannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71920BED663E7D3911BE0CB2 /* Pods-SwiftUI_BannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_BannerView.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_BannerView/Pods-SwiftUI_BannerView.debug.xcconfig"; sourceTree = "<group>"; };
+		8669AEEE9810CC897E68ADE9 /* Pods-SwiftUI_BannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_BannerView.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_BannerView/Pods-SwiftUI_BannerView.release.xcconfig"; sourceTree = "<group>"; };
 		DE6A49D229D3CD2300CFE20D /* SwiftUI_BannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_BannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6A49D529D3CD2300CFE20D /* SwiftUI_BannerViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BannerViewApp.swift; sourceTree = "<group>"; };
 		DE6A49D729D3CD2300CFE20D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE6A49D929D3CD2400CFE20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6A49DC29D3CD2400CFE20D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE6A49E429D3CD3200CFE20D /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		DE6A49E629D3CF0600CFE20D /* BannerImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerImageData.swift; sourceTree = "<group>"; };
+		DE6A49E829D3CF7600CFE20D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DE6A49EA29D3CFDB00CFE20D /* BannerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCellView.swift; sourceTree = "<group>"; };
+		DE6A49EC29D41C5F00CFE20D /* ImageLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLib.swift; sourceTree = "<group>"; };
+		DE6A49EF29D41C9500CFE20D /* IPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPManager.swift; sourceTree = "<group>"; };
+		DE6A49F129D41FB600CFE20D /* SwiftUI-BannerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-BannerView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DE6A49F429D42ADE00CFE20D /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F016C24CB7252C14796AB84A /* Pods_SwiftUI_BannerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2029FDD893189750E1AD526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71920BED663E7D3911BE0CB2 /* Pods-SwiftUI_BannerView.debug.xcconfig */,
+				8669AEEE9810CC897E68ADE9 /* Pods-SwiftUI_BannerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4B4619230DC42F3C09FA667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6431B3D0060AB7E6267F720D /* Pods_SwiftUI_BannerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE6A49C929D3CD2300CFE20D = {
 			isa = PBXGroup;
 			children = (
 				DE6A49D429D3CD2300CFE20D /* SwiftUI_BannerView */,
 				DE6A49D329D3CD2300CFE20D /* Products */,
+				C2029FDD893189750E1AD526 /* Pods */,
+				C4B4619230DC42F3C09FA667 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +90,11 @@
 		DE6A49D429D3CD2300CFE20D /* SwiftUI_BannerView */ = {
 			isa = PBXGroup;
 			children = (
+				DE6A49F129D41FB600CFE20D /* SwiftUI-BannerView-Info.plist */,
 				DE6A49D529D3CD2300CFE20D /* SwiftUI_BannerViewApp.swift */,
 				DE6A49D729D3CD2300CFE20D /* ContentView.swift */,
+				DE6A49E829D3CF7600CFE20D /* ContentViewModel.swift */,
+				DE6A49E329D3CD2900CFE20D /* Banner */,
 				DE6A49D929D3CD2400CFE20D /* Assets.xcassets */,
 				DE6A49DB29D3CD2400CFE20D /* Preview Content */,
 			);
@@ -67,6 +109,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DE6A49E329D3CD2900CFE20D /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A49EE29D41C8600CFE20D /* Util */,
+				DE6A49E629D3CF0600CFE20D /* BannerImageData.swift */,
+				DE6A49E429D3CD3200CFE20D /* BannerView.swift */,
+				DE6A49EA29D3CFDB00CFE20D /* BannerCellView.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		DE6A49EE29D41C8600CFE20D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A49EC29D41C5F00CFE20D /* ImageLib.swift */,
+				DE6A49EF29D41C9500CFE20D /* IPManager.swift */,
+				DE6A49F429D42ADE00CFE20D /* CacheAsyncImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE6A49E029D3CD2400CFE20D /* Build configuration list for PBXNativeTarget "SwiftUI_BannerView" */;
 			buildPhases = (
+				E4AE0BC876EECE9219ECDA49 /* [CP] Check Pods Manifest.lock */,
 				DE6A49CE29D3CD2300CFE20D /* Sources */,
 				DE6A49CF29D3CD2300CFE20D /* Frameworks */,
 				DE6A49D029D3CD2300CFE20D /* Resources */,
+				FB82D42EBBBC5BA164178001 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +168,7 @@
 				};
 			};
 			buildConfigurationList = DE6A49CD29D3CD2300CFE20D /* Build configuration list for PBXProject "SwiftUI_BannerView" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -132,6 +197,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4AE0BC876EECE9219ECDA49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_BannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB82D42EBBBC5BA164178001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_BannerView/Pods-SwiftUI_BannerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_BannerView/Pods-SwiftUI_BannerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_BannerView/Pods-SwiftUI_BannerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE6A49CE29D3CD2300CFE20D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +246,13 @@
 			files = (
 				DE6A49D829D3CD2300CFE20D /* ContentView.swift in Sources */,
 				DE6A49D629D3CD2300CFE20D /* SwiftUI_BannerViewApp.swift in Sources */,
+				DE6A49E529D3CD3200CFE20D /* BannerView.swift in Sources */,
+				DE6A49E729D3CF0600CFE20D /* BannerImageData.swift in Sources */,
+				DE6A49E929D3CF7600CFE20D /* ContentViewModel.swift in Sources */,
+				DE6A49EB29D3CFDB00CFE20D /* BannerCellView.swift in Sources */,
+				DE6A49F029D41C9500CFE20D /* IPManager.swift in Sources */,
+				DE6A49ED29D41C5F00CFE20D /* ImageLib.swift in Sources */,
+				DE6A49F529D42ADE00CFE20D /* CacheAsyncImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +375,7 @@
 		};
 		DE6A49E129D3CD2400CFE20D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71920BED663E7D3911BE0CB2 /* Pods-SwiftUI_BannerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +385,7 @@
 				DEVELOPMENT_TEAM = ENTLMP7F2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-BannerView-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +406,7 @@
 		};
 		DE6A49E229D3CD2400CFE20D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8669AEEE9810CC897E68ADE9 /* Pods-SwiftUI_BannerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +416,7 @@
 				DEVELOPMENT_TEAM = ENTLMP7F2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-BannerView-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
